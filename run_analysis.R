@@ -32,7 +32,7 @@ data_sort <- data_sort[order(data_sort[, 2]), ]
 
 names(data_sort)[3:563] <- as.character(fat_data[,2])
 names(data_sort)[1:2] <- c("Participant", "Activity")
-write.table(data_sort, "data_set_1.txt")
+write.table(data_sort, "data_set_1.txt", row.names = FALSE)
 
 ## ###################step 2 extracted measurement of mean and std############
 
@@ -137,4 +137,4 @@ row.names(sd_att) <- att_row_name_std
 list2 <-rbind(ave_p[,3:81], ave_att[,3:81], sd_p[,3:81], sd_att[,3:81])
 names(list2)[1:79] <- as.character(index_sort[,2])
 
-write.table(list2, "data_set_2.txt")
+write.table(list2, "data_set_2.txt", row.names = FALSE)
