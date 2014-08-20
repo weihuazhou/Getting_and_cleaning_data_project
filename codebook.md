@@ -24,14 +24,14 @@ tBodyAccJerk-mean()-Z		COLUMN	85	LENGTH	6
 tBodyGyro-mean()-X		COLUMN	123	LENGTH	6
 tBodyGyro-mean()-Y		COLUMN	124	LENGTH	7
 tBodyGyro-mean()-Z		COLUMN	125	LENGTH	6
-tBodyGyroJerk-mean()-X	COLUMN	163	LENGTH	6
-tBodyGyroJerk-mean()-Y	COLUMN	164	LENGTH	7
-tBodyGyroJerk-mean()-Z	COLUMN	165	LENGTH	6
+tBodyGyroJerk-mean()-X  	COLUMN	163	LENGTH	6
+tBodyGyroJerk-mean()-Y	        COLUMN	164	LENGTH	7
+tBodyGyroJerk-mean()-Z	        COLUMN	165	LENGTH	6
 tBodyAccMag-mean()		COLUMN	203	LENGTH	6
 tGravityAccMag-mean()		COLUMN	216	LENGTH	7
-tBodyAccJerkMag-mean()	COLUMN	229	LENGTH	6
+tBodyAccJerkMag-mean()	        COLUMN	229	LENGTH	6
 tBodyGyroMag-mean()		COLUMN	242	LENGTH	6
-tBodyGyroJerkMag-mean()	COLUMN	255	LENGTH	7
+tBodyGyroJerkMag-mean()	        COLUMN	255	LENGTH	7
 
 fBodyAcc-mean()-X		COLUMN	268	LENGTH	6
 fBodyAcc-mean()-Y		COLUMN	269	LENGTH	6
@@ -48,14 +48,14 @@ fBodyAccJerk-meanFreq()-Z	COLUMN	377	LENGTH	7
 fBodyGyro-mean()-X		COLUMN	426	LENGTH	6
 fBodyGyro-mean()-Y		COLUMN	427	LENGTH	6
 fBodyGyro-mean()-Z		COLUMN	428	LENGTH	7
-fBodyGyro-meanFreq()-X	COLUMN	454	LENGTH	6
-fBodyGyro-meanFreq()-Y	COLUMN	455	LENGTH	6
-fBodyGyro-meanFreq()-Z	COLUMN	456	LENGTH	7
+fBodyGyro-meanFreq()-X	        COLUMN	454	LENGTH	6
+fBodyGyro-meanFreq()-Y	        COLUMN	455	LENGTH	6
+fBodyGyro-meanFreq()-Z	        COLUMN	456	LENGTH	7
 fBodyAccMag-mean()		COLUMN	505	LENGTH	6
-fBodyAccMag-meanFreq()	COLUMN	515	LENGTH	6
+fBodyAccMag-meanFreq()	        COLUMN	515	LENGTH	6
 fBodyBodyAccJerkMag-mean()	COLUMN	518	LENGTH	7
 fBodyBodyAccJerkMag-meanFreq()	COLUMN	528	LENGTH	6
-fBodyBodyGyroMag-mean()	COLUMN	531	LENGTH	6
+fBodyBodyGyroMag-mean()	        COLUMN	531	LENGTH	6
 fBodyBodyGyroMag-meanFreq()	COLUMN	541	LENGTH	7
 fBodyBodyGyroJerkMag-mean()	COLUMN	544	LENGTH	6
 fBodyBodyGyroJerkMag-meanFreq()	COLUMN	554	LENGTH	6
@@ -96,12 +96,12 @@ fBodyBodyGyroMag-std()	COLUMN	532	LENGTH	6
 fBodyBodyGyroJerkMag-std()	COLUMN	545	LENGTH	7
 
 Parameters of measurements, in which
-°∞t°± stands for time domain,  °∞f°± for frequency domain;
-°∞Body°± stands for body signals, °∞Gravity°± for gravity signals; 
-°∞Acc°± stands for acceleration signals, °∞Gyro°±gyroscope signals;
-°∞Jerk°± for Jerk signals, °∞Mag°± for magnitude signals;
-°∞-mean()°± stands for mean value, °∞-std()°± for standard deviation;
-°∞-X°±, °∞-Y°±, °∞-Z°± stand for 3-axial signals in the X, Y and Z directions;
+‚Äút‚Äù stands for time domain,  ‚Äúf‚Äù for frequency domain;
+‚ÄúBody‚Äù stands for body signals, ‚ÄúGravity‚Äù for gravity signals; 
+‚ÄúAcc‚Äù stands for acceleration signals, ‚ÄúGyro‚Äùgyroscope signals;
+‚ÄúJerk‚Äù for Jerk signals, ‚ÄúMag‚Äù for magnitude signals;
+‚Äú-mean()‚Äù stands for mean value, ‚Äú-std()‚Äù for standard deviation;
+‚Äú-X‚Äù, ‚Äú-Y‚Äù, ‚Äú-Z‚Äù stand for 3-axial signals in the X, Y and Z directions;
 
 
 
@@ -120,4 +120,4 @@ Via Opera Pia 11A, I-16145, Genoa, Italy.
 activityrecognition@smartlab.ws
 activityrecognition@smartlab.ws
 
-Data are extracted from the full data set named °∞Human Activity Recognition Using Smartphones Dataset Version 1.0°±.
+Data are extracted from the full data set named ‚ÄúHuman Activity Recognition Using Smartphones Dataset Version 1.0‚Äù.
